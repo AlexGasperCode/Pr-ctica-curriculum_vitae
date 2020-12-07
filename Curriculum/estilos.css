@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:1.3em;
+}
+
+.container{
+	width:70%;
+	margin:0 auto;
+}
+
+header{
+	width:100%;
+	background:#FF262E;
+	color:#FFF;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+h1{
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.5em;
+}
+
+h2{
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1em;
+	padding-top: 6px;
+}
+
+article{
+	padding:40px 0 20px 0;
+	border-bottom:dotted 1px #888;
+}
+
+article h2{
+	float:left;
+	border-bottom:#FF262E 3px solid;
+	padding-bottom:5px;
+	text-transform:uppercase;
+	line-height:1.4em;
+	font-size:1em;
+}
+
+article p, article ul{
+	margin-left:20%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:1.3em;
+	color:#817C7C;
+	margin-bottom:1.5em;
+}
+
+article h3{
+	font-size:1em;
+	margin-left:20%;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:1.3em;
+}
+
+footer{
+	margin-top:3em;
+	padding:2em;
+	width:100%;
+	background:#FF262E;
+	color:#fff;
+}
+
+footer p{
+	text-align:center;
+}
+
+footer a:link, footer a:visited{
+	color:#fff;
+}
+
+footer a:hover{
+	text-decoration:none;
+}
